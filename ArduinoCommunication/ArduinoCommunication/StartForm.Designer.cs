@@ -33,10 +33,14 @@ namespace ArduinoCommunication
             this.button1 = new System.Windows.Forms.Button();
             this.connectbtn = new System.Windows.Forms.Button();
             this.baudeRatecbox = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // portscbox
             // 
+            this.portscbox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.portscbox.BackColor = System.Drawing.Color.Black;
             this.portscbox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.portscbox.ForeColor = System.Drawing.SystemColors.Menu;
@@ -72,6 +76,8 @@ namespace ArduinoCommunication
             // 
             // baudeRatecbox
             // 
+            this.baudeRatecbox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.baudeRatecbox.BackColor = System.Drawing.SystemColors.InfoText;
             this.baudeRatecbox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.baudeRatecbox.ForeColor = System.Drawing.SystemColors.Menu;
@@ -93,8 +99,28 @@ namespace ArduinoCommunication
             "256000"});
             this.baudeRatecbox.Location = new System.Drawing.Point(12, 143);
             this.baudeRatecbox.Name = "baudeRatecbox";
-            this.baudeRatecbox.Size = new System.Drawing.Size(103, 21);
+            this.baudeRatecbox.Size = new System.Drawing.Size(311, 21);
             this.baudeRatecbox.TabIndex = 3;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.label1.Location = new System.Drawing.Point(9, 65);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 16);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Port:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.25F);
+            this.label2.Location = new System.Drawing.Point(12, 123);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(72, 16);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "BaudRate:";
             // 
             // StartForm
             // 
@@ -102,6 +128,8 @@ namespace ArduinoCommunication
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(335, 450);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.baudeRatecbox);
             this.Controls.Add(this.connectbtn);
             this.Controls.Add(this.button1);
@@ -111,6 +139,7 @@ namespace ArduinoCommunication
             this.Text = "StartForm";
             this.Load += new System.EventHandler(this.StartForm_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -120,5 +149,7 @@ namespace ArduinoCommunication
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button connectbtn;
         private System.Windows.Forms.ComboBox baudeRatecbox;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
