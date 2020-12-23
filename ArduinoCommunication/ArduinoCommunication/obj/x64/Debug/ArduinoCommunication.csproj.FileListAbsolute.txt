@@ -1,0 +1,14 @@
+C:\Users\lgha1\source\repos\ArduinoCommunication\ArduinoCommunication\bin\x64\Debug\ArduinoCommunication.exe.config
+C:\Users\lgha1\source\repos\ArduinoCommunication\ArduinoCommunication\bin\x64\Debug\ArduinoCommunication.exe
+C:\Users\lgha1\source\repos\ArduinoCommunication\ArduinoCommunication\bin\x64\Debug\ArduinoCommunication.pdb
+C:\Users\lgha1\source\repos\ArduinoCommunication\ArduinoCommunication\bin\x64\Debug\Newtonsoft.Json.dll
+C:\Users\lgha1\source\repos\ArduinoCommunication\ArduinoCommunication\bin\x64\Debug\Newtonsoft.Json.xml
+C:\Users\lgha1\source\repos\ArduinoCommunication\ArduinoCommunication\obj\x64\Debug\ArduinoCommunication.csprojAssemblyReference.cache
+C:\Users\lgha1\source\repos\ArduinoCommunication\ArduinoCommunication\obj\x64\Debug\ArduinoCommunication.Form1.resources
+C:\Users\lgha1\source\repos\ArduinoCommunication\ArduinoCommunication\obj\x64\Debug\ArduinoCommunication.Properties.Resources.resources
+C:\Users\lgha1\source\repos\ArduinoCommunication\ArduinoCommunication\obj\x64\Debug\ArduinoCommunication.StartForm.resources
+C:\Users\lgha1\source\repos\ArduinoCommunication\ArduinoCommunication\obj\x64\Debug\ArduinoCommunication.csproj.GenerateResource.cache
+C:\Users\lgha1\source\repos\ArduinoCommunication\ArduinoCommunication\obj\x64\Debug\ArduinoCommunication.csproj.CoreCompileInputs.cache
+C:\Users\lgha1\source\repos\ArduinoCommunication\ArduinoCommunication\obj\x64\Debug\ArduinoCommunication.csproj.CopyComplete
+C:\Users\lgha1\source\repos\ArduinoCommunication\ArduinoCommunication\obj\x64\Debug\ArduinoCommunication.exe
+C:\Users\lgha1\source\repos\ArduinoCommunication\ArduinoCommunication\obj\x64\Debug\ArduinoCommunication.pdb
