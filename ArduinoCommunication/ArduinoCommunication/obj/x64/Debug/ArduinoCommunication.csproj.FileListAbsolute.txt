@@ -12,3 +12,4 @@ C:\Users\lgha1\source\repos\ArduinoCommunication\ArduinoCommunication\obj\x64\De
 C:\Users\lgha1\source\repos\ArduinoCommunication\ArduinoCommunication\obj\x64\Debug\ArduinoCommunication.csproj.CopyComplete
 C:\Users\lgha1\source\repos\ArduinoCommunication\ArduinoCommunication\obj\x64\Debug\ArduinoCommunication.exe
 C:\Users\lgha1\source\repos\ArduinoCommunication\ArduinoCommunication\obj\x64\Debug\ArduinoCommunication.pdb
+C:\Users\lgha1\source\repos\ArduinoCommunication\ArduinoCommunication\obj\x64\Debug\ArduinoCommunication.Terminal.resources

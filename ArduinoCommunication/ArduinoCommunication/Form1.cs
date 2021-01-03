@@ -40,5 +40,35 @@ namespace ArduinoCommunication
                 textBox2.Text = String.Empty;
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new Terminal(this).Show();
+        }
+
+        private void logtxt_MouseHover(object sender, EventArgs e)
+        {
+            shownametxt.Text = ((TextBox)sender).Name;
+        }
+
+        private void textBox2_MouseHover(object sender, EventArgs e)
+        {
+            shownametxt.Text = ((TextBox)sender).Name;
+        }
+
+        private void button1_MouseHover(object sender, EventArgs e)
+        {
+            shownametxt.Text = ((Button)sender).Name;
+        }
+
+        private void Terminalbtn_MouseHover(object sender, EventArgs e)
+        {
+            shownametxt.Text = ((Button)sender).Name;
+        }
+
+        private void tStampCheck_MouseHover(object sender, EventArgs e)
+        {
+            shownametxt.Text = ((CheckBox)sender).Name;
+        }
     }
 }

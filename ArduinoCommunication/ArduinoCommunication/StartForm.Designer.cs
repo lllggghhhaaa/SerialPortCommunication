@@ -47,14 +47,14 @@ namespace ArduinoCommunication
             this.portscbox.FormattingEnabled = true;
             this.portscbox.Location = new System.Drawing.Point(12, 85);
             this.portscbox.Name = "portscbox";
-            this.portscbox.Size = new System.Drawing.Size(230, 21);
+            this.portscbox.Size = new System.Drawing.Size(206, 21);
             this.portscbox.TabIndex = 0;
             // 
             // button1
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(248, 76);
+            this.button1.Location = new System.Drawing.Point(224, 76);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 37);
             this.button1.TabIndex = 1;
@@ -66,7 +66,7 @@ namespace ArduinoCommunication
             // 
             this.connectbtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.connectbtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.connectbtn.Location = new System.Drawing.Point(248, 401);
+            this.connectbtn.Location = new System.Drawing.Point(224, 347);
             this.connectbtn.Name = "connectbtn";
             this.connectbtn.Size = new System.Drawing.Size(75, 37);
             this.connectbtn.TabIndex = 2;
@@ -99,7 +99,7 @@ namespace ArduinoCommunication
             "256000"});
             this.baudeRatecbox.Location = new System.Drawing.Point(12, 143);
             this.baudeRatecbox.Name = "baudeRatecbox";
-            this.baudeRatecbox.Size = new System.Drawing.Size(311, 21);
+            this.baudeRatecbox.Size = new System.Drawing.Size(287, 21);
             this.baudeRatecbox.TabIndex = 3;
             // 
             // label1
@@ -127,7 +127,7 @@ namespace ArduinoCommunication
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(335, 450);
+            this.ClientSize = new System.Drawing.Size(311, 396);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.baudeRatecbox);
